@@ -1,0 +1,549 @@
+/* By: jhonnyboy 
+DARK BLUE: 001648
+LIGHT BLUE: 2b4e78
+GOLD 1: c69b19
+GOLD 2: e6b520
+*/
+
+/***************************/
+/*********HEADER************/
+/**************************/
+
+#header
+{
+  border-bottom:              1px solid #001648;
+}
+
+#header-img
+{
+    margin-top:                0px;
+    margin-right:              5px;
+    margin-left:               25px;
+}
+
+#header-bottom-left 
+{
+    height:                        100px;
+    padding:                      0px 0 0;
+    background-image:         url(%%header%%);
+}
+
+#header-bottom-right
+{
+   background-color:         transparent;
+   z-index:                       99;
+   right:                          45px;
+   bottom:                      10px;
+
+}
+
+#header-bottom-right a, #header-bottom-right .user
+ {
+    color:                       #FFF;
+    text-shadow:             #222 0px 1px 0px
+}
+
+span.redditname a, span.pagename.selected /*FIU LOGO*/
+{
+
+    background-image:               url(%%pageFIULogo%%);
+    background-repeat:               no-repeat;   
+    margin:                               0 auto;
+    font-size:                            0px;
+
+
+    padding:                             60px 150px 10px 10px;    
+    position:                             absolute;
+    left:                                  200px;
+    top:                                   30px;
+}
+
+/*SEARCH (from r/baconreader)*/
+form#search 
+{
+    position:                              relative;
+    z-index:                              9999;
+    bottom:                              335px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
+    right:                                  10px;
+    }
+form#search input[name="q"] 
+{
+    border:                              1px solid #1F2F3D;
+    border-radius:                      4px;
+    -moz-border-radius:              4px;
+    -webkit-border-radius:           4px;
+    color:                                  #333;
+    font-size:                           12px;
+    padding:                             5px;
+}
+
+/*************************/
+/****** TOP NAV LINKS ******/
+/************************/
+
+#sr-header-area 
+{
+   
+    background-color:                   #c69b19;  
+    border-top:                           1px solid #001648;
+    border-bottom:                      1px solid #001648;
+    
+    
+}
+#sr-header-area a
+{
+   color:                                     #ffffff; 
+   text-decoration:                       none;
+   
+}
+
+#sr-header-area a:hover
+{
+   color:                                     #001648;  
+   text-decoration:                       none;
+}
+
+#sr-header-area .selected a {color: #001648;}
+
+#sr-more-link {
+    background-color: #c69b19;
+    color: #fff;
+    text-shadow: white 0px 1px 0px;
+    }
+.sr-bar a, .dropdown.srdrop .active { color: #001648; }
+
+/*NAVMENU (parts from r/baconreader)*/
+ul.tabmenu {
+   background-image:                  url(%%submitGrad%%);
+    border:                                1px solid #001648;
+    position:                              absolute;
+    font-size:                             12px;
+    top:                                    125px;
+    left:                                    35px;
+    border-radius:                       10px;
+    -moz-border-radius:              10px;
+    -webkit-border-radius:           10px;
+    }
+ul.tabmenu li {
+    padding: 7px 0px;
+    display: block;
+    float: left
+    }
+ul.tabmenu:after { clear: both  }
+
+ul.tabmenu li a, ul.tabmenu li.selected a {
+    background-color: transparent;
+    border: 0;
+    color: #fff;   
+    font-weight: normal
+    }
+ul.tabmenu li.selected a {
+    color: #e6b520;
+    font-weight: bold;
+    }
+
+ul.tabmenu li a:hover {color: #e6b520; }
+
+/***************************/
+/*******RIGHT COLUMN *******/
+/**************************/
+
+.titlebox h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #001648;
+    text-transform: capitalize
+    }
+.titlebox h1 a {
+    color: #001648;
+    }
+.titlebox .word {
+    display: none;
+    }
+.titlebox .number:after {
+    content: " Golden Panthers";
+    }
+/*.titlebox h1:before {
+    content: "Welcome to ";
+    }*/
+.titlebox .md {
+     font-size: 14px;
+    cursor: text;
+    }
+/*!*/
+.titlebox .bottom {
+text-indent: -9999px
+}
+.titlebox .age {
+text-indent: 0
+}
+.side p, .side li {
+font-size: 12px
+}
+
+
+div.side /* SIDE IMAGE */
+{
+  padding: 270px 0 0 10px;
+  background: #fff url(%%HumanPanther%%) 10px 10px no-repeat;
+}
+
+style boxes in .side 
+.side {
+    background-color: transparent;
+    }
+.sidecontentbox {
+    background-color: #2b4e78 !important;
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+    padding: 2px 5px;
+    /*-moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;*/
+    border: 1px solid #001648;
+    }
+
+.sidecontentbox .title h1 { color: #fff; }
+
+.sidecontentbox .helplink {
+    padding-right: 5px;
+    }
+.sidecontentbox a.helplink {
+    color: #fff;
+    }
+.sidecontentbox .content {
+    border: none;
+    background-color: #fff;
+    background-position: top center;
+    background-repeat: no-repeat;
+    }
+.sidecontentbox .content a, .sidecontentbox .content a:visited {
+    color: #001648;
+    }
+.sidecontentbox .content .gadget small {
+    color: #001648;
+    }
+.icon-menu a {
+    background-color: transparent;
+    }
+
+/**submit button**/
+
+.morelink, .morelink:hover, .fancy-toggle-button a.option {
+    background: url(%%submitGrad%%);
+    border: 1px solid #001648;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+     
+    }
+.morelink a, .fancy-toggle-button a.option {
+    color: #fff !important;
+    font-size: 13px;
+    letter-spacing: 0px;
+    }
+.morelink:hover a, .fancy-toggle-button a:hover {color: #e6b520 !important; font-size: 13px;}
+
+.morelink .nub {display: none;}
+
+/***************************/
+/********COMMENTS**********/
+/***************************/
+.arrow.upmod 
+{
+    background-image:                  url(%%upMod%%);
+    background-position:               0 0;
+}
+	
+.arrow.downmod 
+{
+    background-image:                 url(%%downMod%%);
+    background-position:              0 0;
+}
+.arrow.up 
+{
+    background-image: 			url(%%upVotePaw%%);
+    background-position: 		0 0;
+    
+}
+.arrow.down 
+{
+    background-image: 			url(%%downVotePaw%%);
+    background-position: 		0 0;
+    
+}
+
+.content {
+    margin: 62px 5px 0px 5px;
+    }
+#sr-more-link {
+    display: none;
+    }
+div.content {
+    margin-right: 30px;
+    padding-left: 10px
+    }
+
+/*Roary Head Thumbnail*/
+.thumbnail img[src^="/static/"] {
+
+    background-image: url(%%logo-FIU-panther%%) !important;
+    background-repeat: no-repeat !important;
+    height: 0 !important;
+    width: 0 !important;
+    padding: 50px 0 0 50px !important;
+    }
+
+/*************************************/
+/*******SUBMIT + MOD PAGE***************/
+/*************************************/
+
+.tabmenu.formtab .selected a 
+{
+    color: #4F596B;
+    font-size: 100%;
+    background-color: transparent;
+    text-transform:capitalize;
+
+ }
+
+.tabmenu.formtab a { border: none; }
+
+.roundfield { background-color: #D0B76D; color: #fff;  text-transform:capitalize;  border: 2px solid #B08A17;}
+
+.roundfield textarea {border: 1px solid #B08A17;}
+
+.formtabs-content 
+{
+    border: 0px solid #001648;
+    margin-top: -60px;    
+}
+
+#url-field{text-transform: uppercase;}
+
+.linefield .title {
+
+  color:blue;
+ font-weight:bold;
+ padding:1px 10px;
+}
+
+/*a.author[href$="/jhonnyboy"] {  
+color: #001648;
+font-weight: bold;
+}  */
+
+/*v--------------Testing - Site - Stickies---------------------v*/
+/***********************************************/
+/*Add stickies through the description box. -rroma*******/
+
+.content {
+    margin-top: 55px;
+    
+
+    }
+.pagename {
+    font-size: 12pt;
+    }
+.titlebox form {
+    position: static;
+    }
+.titlebox .usertext-body .md ol {
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    background-color: #f6e69f;
+    border: 1px solid #c69b19;
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    z-index: 50;
+    margin: 0;
+    padding: 4px;   
+    list-style: none;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+.titlebox .usertext-body .md ol li {
+    margin: 3px
+    }
+/* Dropdown My Reddits Menu*/
+#sr-header-area .drop-choices {
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: url(%%1%%);
+    border: none !important;
+    padding: 5px;
+    margin-right: 100px;
+    margin-top: 10px;
+    }
+#sr-header-area .drop-choices a.choice {
+    color: #FFFFFF;
+    }
+#sr-header-area .drop-choices a.choice:hover {
+    background-color: #A3C5FF;
+    }
+
+/**body >.content >.sharelink ~.sitetable:before {
+    content: "MEETUP: WEDNESDAY, MARCH 6th @ 2p GC PIANO ROOM";
+    background-color: #F6E69F;
+    border: 1px solid orange;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    display: block;
+    padding:5px 10px;
+    margin:5px 305px 5px 0px;
+    border-radius: 8px;
+    }
+**/
+
+/*---------------TESTING FLAIRS--------------*/
+/*---by g6in3d---*/
+.flair {
+ 
+}
+
+
+/*http://webresizer.com/resizer/  <--link to image resizer  */
+
+
+.flair-fiulogosprite {
+  background-image: url(%%fiulogosprite%%) !important;
+  background-repeat: no repeat !important; /*not fixing issue*/
+  padding: 5px 5px 5px 5px !important;
+  color: #E6B520;
+  font-weight: bold;
+}
+
+.flair-fiuseal {
+  background-image: url(%%fiuseal%%) !important;
+  background-repeat: no repeat !important; /*not fixing issue*/
+  padding: 5px 5px 5px 5px !important;
+  color: blue;
+}
+
+.flair-upMod {
+  background-image: url(%%upMod%%) !important;
+  background-repeat: no repeat !important;
+  padding: 5px 5px 5px 5px !important;
+  color: blue;
+  font-weight: bold;
+}
+
+.flair-upVotePaw {
+  background-image: url(%%upVotePaw%%) !important;
+  background-repeat: no repeat !important;
+  padding: 5px 5px 5px 5px !important;
+  color: #E6B520; /*---------CHANGE COLOR, GOLD IS NOT VISIBLE WITH THIS FLAIR---------*/
+  font-weight: bold;
+}
+
+/*-----------END OF FLAIR SECTION-----------*/
+
+/*----------BEGINNING OF LINK FLAIR SECTION-----------*/
+
+
+.linkflair-one .linkflairlabel {    /* one = announcement */
+  background-color: #E6B520;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.linkflair-two .linkflairlabel {    /*  two = fiu news */
+  background-color: #001648;
+  font-size: 11px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.linkflair-meta .linkflairlabel {
+  background-color: #C0C0C0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.linkflair-club .linkflairlabel {
+  background-color: green;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+html.lang(an) .link:not(.linkflair-one) {
+  display: none; 
+}
+
+html.lang(ne) .link:not(.linkflair-two) {
+  display: none;
+}
+
+ .side a[href*='#an'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  border: 2px solid black;
+  font-size: 100%;
+  padding: 3px;
+  color: black;
+  font-weight: bold;
+  background: #E6B520;
+  min-width: 135px;
+  text-align: center;
+  border-radius: 3px;
+  left: 0px;
+  top: -29x;
+} 
+
+.side a[href*='#ne'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  border: 2px solid black;
+  font-size: 100%;
+  padding: 3px;
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #001648;
+  min-width: 135px;
+  text-align: center;
+  border-radius: 3px;
+  left: 0px;
+  top: -29x;
+} 
+
+.side .md[href*="search?q=flair"] {
+  display: inline-block;
+  padding: 3px 5px;
+  font-weight: bold;
+  color: #000000;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.side .md [href*="search?qflair%3A%27announcement"] {
+  background: #E6B520;
+}
+
+.side .md [href*="search?qflair%3A%27fiunews"] {
+  background: #001648;
+}
+/*----------END OF LINK FLAIR SECTION----------*/
