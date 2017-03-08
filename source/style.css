@@ -11,29 +11,29 @@ GOLD 2: e6b520
 
 #header
 {
-  border-bottom:              1px solid #001648;
+  border-bottom: 1px solid #001648;
 }
 
 #header-img
 {
-    margin-top:                0px;
-    margin-right:              5px;
-    margin-left:               25px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 25px;
 }
 
 #header-bottom-left 
 {
-    height:                        100px;
-    padding:                      0px 0 0;
-    background-image:         url(%%header%%);
+    height: 100px;
+    padding: 0px 0 0;
+    background-image: url(%%header%%);
 }
 
 #header-bottom-right
 {
-   background-color:         transparent;
-   z-index:                       99;
-   right:                          45px;
-   bottom:                      10px;
+   background-color: transparent;
+   z-index: 99;
+   right: 45px;
+   bottom: 10px;
 
 }
 
