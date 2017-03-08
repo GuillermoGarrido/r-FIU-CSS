@@ -39,42 +39,42 @@ GOLD 2: e6b520
 
 #header-bottom-right a, #header-bottom-right .user
  {
-    color:                       #FFF;
-    text-shadow:             #222 0px 1px 0px
+    color: #FFF;
+    text-shadow: #222 0px 1px 0px;
 }
 
 span.redditname a, span.pagename.selected /*FIU LOGO*/
 {
 
-    background-image:               url(%%pageFIULogo%%);
-    background-repeat:               no-repeat;   
-    margin:                               0 auto;
-    font-size:                            0px;
+    background-image: url(%%pageFIULogo%%);
+    background-repeat: no-repeat;   
+    margin: 0 auto;
+    font-size: 0px;
 
 
-    padding:                             60px 150px 10px 10px;    
-    position:                             absolute;
-    left:                                  200px;
-    top:                                   30px;
+    padding: 60px 150px 10px 10px;    
+    position: absolute;
+    left: 200px;
+    top: 30px;
 }
 
 /*SEARCH (from r/baconreader)*/
 form#search 
 {
-    position:                              relative;
-    z-index:                              9999;
-    bottom:                              335px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
-    right:                                  10px;
+    position: relative;
+    z-index: 9999;
+    bottom: 335px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
+    right: 10px;
     }
 form#search input[name="q"] 
 {
-    border:                              1px solid #1F2F3D;
-    border-radius:                      4px;
-    -moz-border-radius:              4px;
-    -webkit-border-radius:           4px;
-    color:                                  #333;
-    font-size:                           12px;
-    padding:                             5px;
+    border: 1px solid #1F2F3D;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #333;
+    font-size: 12px;
+    padding: 5px;
 }
 
 /*************************/
@@ -84,23 +84,23 @@ form#search input[name="q"]
 #sr-header-area 
 {
    
-    background-color:                   #c69b19;  
-    border-top:                           1px solid #001648;
-    border-bottom:                      1px solid #001648;
+    background-color: #c69b19;  
+    border-top: 1px solid #001648;
+    border-bottom: 1px solid #001648;
     
     
 }
 #sr-header-area a
 {
-   color:                                     #ffffff; 
-   text-decoration:                       none;
+   color: #ffffff; 
+   text-decoration: none;
    
 }
 
 #sr-header-area a:hover
 {
-   color:                                     #001648;  
-   text-decoration:                       none;
+   color: #001648;  
+   text-decoration: none;
 }
 
 #sr-header-area .selected a {color: #001648;}
@@ -114,15 +114,15 @@ form#search input[name="q"]
 
 /*NAVMENU (parts from r/baconreader)*/
 ul.tabmenu {
-   background-image:                  url(%%submitGrad%%);
-    border:                                1px solid #001648;
-    position:                              absolute;
-    font-size:                             12px;
-    top:                                    125px;
-    left:                                    35px;
-    border-radius:                       10px;
-    -moz-border-radius:              10px;
-    -webkit-border-radius:           10px;
+   background-image: url(%%submitGrad%%);
+    border: 1px solid #001648;
+    position: absolute;
+    font-size: 12px;
+    top: 125px;
+    left: 35px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     }
 ul.tabmenu li {
     padding: 7px 0px;
@@ -153,7 +153,7 @@ ul.tabmenu li a:hover {color: #e6b520; }
     font-weight: bold;
     font-variant: small-caps;
     color: #001648;
-    text-transform: capitalize
+    text-transform: capitalize;
     }
 .titlebox h1 a {
     color: #001648;
@@ -168,25 +168,25 @@ ul.tabmenu li a:hover {color: #e6b520; }
     content: "Welcome to ";
     }*/
 .titlebox .md {
-     font-size: 14px;
+    font-size: 14px;
     cursor: text;
     }
 /*!*/
 .titlebox .bottom {
-text-indent: -9999px
+    text-indent: -9999px;
 }
 .titlebox .age {
-text-indent: 0
+    text-indent: 0;
 }
 .side p, .side li {
-font-size: 12px
+    font-size: 12px;
 }
 
 
 div.side /* SIDE IMAGE */
 {
-  padding: 270px 0 0 10px;
-  background: #fff url(%%HumanPanther%%) 10px 10px no-repeat;
+    padding: 270px 0 0 10px;
+    background: #fff url(%%HumanPanther%%) 10px 10px no-repeat;
 }
 
 style boxes in .side 
@@ -254,25 +254,25 @@ style boxes in .side
 /***************************/
 .arrow.upmod 
 {
-    background-image:                  url(%%upMod%%);
-    background-position:               0 0;
+    background-image: url(%%upMod%%);
+    background-position: 0 0;
 }
 	
 .arrow.downmod 
 {
-    background-image:                 url(%%downMod%%);
-    background-position:              0 0;
+    background-image: url(%%downMod%%);
+    background-position: 0 0;
 }
 .arrow.up 
 {
-    background-image: 			url(%%upVotePaw%%);
-    background-position: 		0 0;
+    background-image: url(%%upVotePaw%%);
+    background-position: 0 0;
     
 }
 .arrow.down 
 {
-    background-image: 			url(%%downVotePaw%%);
-    background-position: 		0 0;
+    background-image: url(%%downVotePaw%%);
+    background-position: 0 0;
     
 }
 
@@ -284,7 +284,7 @@ style boxes in .side
     }
 div.content {
     margin-right: 30px;
-    padding-left: 10px
+    padding-left: 10px;
     }
 
 /*Roary Head Thumbnail*/
@@ -325,10 +325,9 @@ div.content {
 #url-field{text-transform: uppercase;}
 
 .linefield .title {
-
-  color:blue;
- font-weight:bold;
- padding:1px 10px;
+    color: blue;
+    font-weight: bold;
+    padding: 1px 10px;
 }
 
 /*a.author[href$="/jhonnyboy"] {  
