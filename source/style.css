@@ -555,4 +555,9 @@ html.lang(ne) .link:not(.linkflair-two) {
 .side .md [href*="search?qflair%3A%27fiunews"] {
   background: #001648;
 }
+
+.side .md [href*="search?qflair%A%27club"] {
+  background: #000000;
+  color: #ffffff;
+}
 /*----------END OF LINK FLAIR SECTION----------*/
