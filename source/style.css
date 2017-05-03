@@ -63,7 +63,7 @@ form#search
 {
     position: relative;
     z-index: 9999;
-    bottom: 335px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
+    bottom: 270px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
     right: 10px;
     }
 form#search input[name="q"] 
@@ -185,7 +185,7 @@ ul.tabmenu li a:hover {color: #e6b520; }
 
 div.side /* SIDE IMAGE */
 {
-    padding: 270px 0 0 10px;
+    padding: 205px 0 0 10px;
     background: #fff url(%%CoolSummerStart%%) 10px 10px no-repeat;
 }
 
