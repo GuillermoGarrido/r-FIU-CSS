@@ -162,7 +162,7 @@ ul.tabmenu li a:hover {color: #e6b520; }
     display: none;
     }
 .titlebox .number:after {
-    content: " Golden Panthers";
+    content: " Magnificent Panthers";
     }
 /*.titlebox h1:before {
     content: "Welcome to ";
@@ -185,7 +185,7 @@ ul.tabmenu li a:hover {color: #e6b520; }
 
 div.side /* SIDE IMAGE */
 {
-    padding: 295px 0 0 10px;
+    padding: 295px 10px 0 10px; /*Change second depending on image*/
     background: #fff url(%%Summerfest2017%%) 10px 10px no-repeat;
 }
 
