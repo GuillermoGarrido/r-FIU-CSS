@@ -164,9 +164,14 @@ ul.tabmenu li a:hover {color: #e6b520; }
 .titlebox .number:after {
     content: " Splendid Panthers";
     }
+.titlebox .users-online span.number:after {
+    content: " Panthers currently not studying";
+    }
+
 /*.titlebox h1:before {
     content: "Welcome to ";
     }*/
+
 .titlebox .md {
     font-size: 14px;
     cursor: text;
