@@ -168,11 +168,11 @@ ul.tabmenu li a:hover {color: #e6b520; }
     content: " Panthers currently not studying";
     }
 /*-----------------------------TEST LATER--------------------------------*/
-/*-----------remove comment labels from titlebox h1:before after Summer B ends----------*/
-/*.titlebox h1:before {
+
+.titlebox h1:before {
     content: "Class of '21, Welcome to r/";
     font-size: 18px;
-    } */
+    }
 
 .titlebox .md {
     font-size: 14px;
