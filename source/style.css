@@ -168,8 +168,10 @@ ul.tabmenu li a:hover {color: #e6b520; }
     content: " Panthers currently not studying";
     }
 /*-----------------------------TEST LATER--------------------------------*/
+/*-----------remove comment labels from titlebox h1:before after Summer B ends----------*/
 /*.titlebox h1:before {
-    content: "Welcome to ";
+    content: "Class of '21, Welcome to r/";
+    font-size: 18px;
     } */
 
 .titlebox .md {
@@ -311,7 +313,7 @@ div.content {
     color: #4F596B;
     font-size: 100%;
     background-color: transparent;
-    text-transform:capitalize;
+    text-transform: capitalize;
 
  }
 
@@ -334,8 +336,8 @@ div.content {
     font-weight: bold;
     padding: 1px 10px;
 }
-
-/*a.author[href$="/jhonnyboy"] {  
+/*----------------------Consider removing author code (doesn't seem to do anything when un-commented)-----*/
+/* a.author[href$="/jhonnyboy"] {  
 color: #001648;
 font-weight: bold;
 }  */
@@ -391,7 +393,7 @@ font-weight: bold;
     background-color: #A3C5FF;
     }
 
-/**body >.content >.sharelink ~.sitetable:before {
+/*body >.content >.sharelink ~.sitetable:before {
     content: "MEETUP: WEDNESDAY, MARCH 6th @ 2p GC PIANO ROOM";
     background-color: #F6E69F;
     border: 1px solid orange;
@@ -404,7 +406,7 @@ font-weight: bold;
     margin:5px 305px 5px 0px;
     border-radius: 8px;
     }
-**/
+*/
 
 /*---------------TESTING FLAIRS--------------*/
 /*---by g6in3d---*/
