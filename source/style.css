@@ -167,15 +167,15 @@ ul.tabmenu li a:hover {color: #e6b520; }
 .titlebox .users-online span.number:after {
     content: " Panthers currently not studying";
     }
-
+/*-----------------------------TEST LATER--------------------------------*/
 /*.titlebox h1:before {
     content: "Welcome to ";
-    }*/
+    } */
 
 .titlebox .md {
     font-size: 14px;
     cursor: text;
-    }
+    } 
 /*!*/
 .titlebox .bottom {
     text-indent: -9999px;
