@@ -162,7 +162,7 @@ ul.tabmenu li a:hover {color: #e6b520; }
     display: none;
     }
 .titlebox .number:after {
-    content: " Panthers are preparing for midterms";
+    content: " Panthers are glad the semester is over";
     }
 .titlebox .users-online span.number:after {
     content: " Panthers currently not studying";
@@ -194,9 +194,9 @@ div.side /* SIDE IMAGE */
 {
     padding: 275px 10px 0 10px; /*Change second depending on image*/
     background: #fff url(%%fiufootball%%) 10px 10px no-repeat;
-    background-size:     contain;
+    background-size: contain;
     max-height: 40px;
-background-position: center center;
+    background-position: center; 
 }
 
 style boxes in .side 
