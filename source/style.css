@@ -63,7 +63,7 @@ form#search
 {
     position: relative;
     z-index: 9999;
-    bottom: 210px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
+    bottom: 340px; /* CHANGE WHEN SIDE PICTURE HEIGHT IS CHANGED */
     right: 10px;
     }
 form#search input[name="q"] 
@@ -162,10 +162,10 @@ ul.tabmenu li a:hover {color: #e6b520; }
     display: none;
     }
 .titlebox .number:after {
-    content: " Sunblazers are supposed to be enjoying Summer";
+    content: " Panthers are supposed to be enjoying Summer";
     }
 .titlebox .users-online span.number:after {
-    content: " Sunblazers are panicking about Summer A";
+    content: " Panthers are panicking about Fall";
     }
 /*-----------------------------TEST LATER--------------------------------*/
 
@@ -192,8 +192,8 @@ ul.tabmenu li a:hover {color: #e6b520; }
 
 div.side /* SIDE IMAGE */
 {
-    padding: 140px 10px 0 10px; /*Change second depending on image*/
-    background: #fff url(%%sunblazerlogo%%) 50px 10px no-repeat; /*change 50px back to 10px when done*/
+    padding: 270px 10px 0 10px; /*Change second depending on image*/
+    background: #fff url(%%shellhacks2%%) 10px 10px no-repeat; /*change 50px back to 10px when done*/
  
 }
 
